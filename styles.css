@@ -186,7 +186,7 @@ h2{
     background-image: url("images/07e27cf5bea9990dac8c243275bb8973.jpg");
     background-size: cover;
     background-position: center;
-    z-index: -4;
+    z-index: -9;
     
 }
 
@@ -211,7 +211,13 @@ form {
     gap: 20px;
 }
 
+.textarea{
+    height: 300px;
+}
 
+.okay{
+    height: 500px;
+}
 input text{
     width: 100%;
     padding: 12px 20px;
@@ -232,11 +238,14 @@ label{
 input{
     cursor:text;
     width: 100%;
-    border-radius: 8px;
+    border-radius: 5px;
     background-color: beige;
-    height: 10%;
+    height: 300px;
 }
 
+input textarea{
+    height: 500px;
+}
 button {
     width: 50%;
     padding: 6px 0;
@@ -325,7 +334,142 @@ footer p{
     font-size: 20px;
 }
 
+@media (max-width: 1158px){
+  .all{
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .navbar ul li{
+    font-size: 25px;
+    padding: 20px;
+  }
+
+  .navbar img{
+    width:80%;
+    height: 90%;
+    padding-left: 10px;
+    
+  }
+  .contact{
+    flex-direction: column;
+    text-align: center;
+  }
+  form {
+        width: 400px;
+        height: 450px;
+        padding: 30px;
+    }
+    .contact h1 {
+        font-size: 50px;
+    }
+    .contact p {
+        font-size: 20px;
+    }
+    input, text {
+        font-size: 16px;
+    }
+    button {
+        width: 180px;
+        font-size: 16px;
+    }
+
+.okay{
+    height: 200px;
+}
+  
+  h1{
+    font-size: 45px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+  .cars{
+    height: 200px;
+  }
+  .ins{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .parabout{
+    border: 2px solid transparent;
+    border-width: 80px;
+    font-size: 10px;
+}
+}
+
+
+
 @media (max-width: 900px){
+  .all{
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .navbar ul li{
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .navbar img{
+    width:80%;
+    height: 100%;
+    padding-left: 10px;
+    
+  }
+  .contact{
+    flex-direction: column;
+    text-align: center;
+  }
+  form {
+        width: 400px;
+        height: 450px;
+        padding: 30px;
+    }
+    .contact h1 {
+        font-size: 50px;
+    }
+    .contact p {
+        font-size: 20px;
+    }
+    input, text {
+        font-size: 16px;
+    }
+    button {
+        width: 180px;
+        font-size: 16px;
+    }
+
+.textarea{
+    height: 200px;
+}
+  
+  h1{
+    font-size: 45px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+  .cars{
+    height: 200px;
+  }
+  .ins{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .parabout{
+    border: 2px solid transparent;
+    border-width: 80px;
+    font-size: 10px;
+}
+
+}
+
+@media (max-width: 470px){
   .all{
     grid-template-columns: repeat(4, 1fr);
   }
@@ -446,12 +590,73 @@ footer p{
 }
    
 
+@media (max-width: 460px){
+  .all{
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .navbar ul li{
+    font-size: 25px;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+  }
 
+  .navbar img{
+    width:80%;
+    height: 100%;
+    padding-left: 10px;
+    
+  }
+}
   @media (max-width: 400px){
     
   .navbar ul li{
-    font-size: 9px;
+    font-size: 18px;
     padding: 10px;
+  }
+  .navbar img {
+        height: 100px;
+    }
+  .cars{
+    height: 200px;
+  }
+  p{
+    font-size: 15px;
+  }
+  
+    
+ 
+
+#abou{
+    overflow: hidden;
+}
+.abouimg{
+    width:200px;
+    
+}
+
+.parabout{
+    border:2px solid transparent;
+    padding:8px;
+}
+   .ins{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1px;
+    padding: 2px;
+     
+
+  }
+
+}
+
+  @media (max-width: 300px){
+    
+  .navbar ul li{
+    font-size: 15px;
+    padding: 10px;
+    flex-direction: row;
   }
   .navbar img {
         height: 100px;
@@ -467,8 +672,20 @@ footer p{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
-    padding: 10px;
+    gap: 10px;
+    padding: 6px;
+    
      
+}
+
+.ins{
+ width:100px;
+}
+#abou{
+    overflow: hidden;
+}
+.abouimg{
+    width:200px;
+    
 }
   }
