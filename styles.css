@@ -592,13 +592,12 @@ footer p{
 
 @media (max-width: 460px){
   .all{
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .navbar ul li{
     font-size: 25px;
     padding: 10px;
     flex-direction: row;
-    justify-content: center;
   }
 
   .navbar img{
@@ -656,7 +655,6 @@ footer p{
   .navbar ul li{
     font-size: 15px;
     padding: 10px;
-    flex-direction: row;
   }
   .navbar img {
         height: 100px;
