@@ -251,8 +251,14 @@ button {
     padding: 6px 0;
     border-radius: 20px;
     cursor: pointer;
-    align-items: start;
+    align-items: center;
     font-size: 18px;
+    
+}
+
+ form, button{ 
+  justify-content: center;
+  align-items: center;
 }
 
 button:hover {
