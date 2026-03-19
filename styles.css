@@ -395,7 +395,7 @@ footer p{
   }
   .parabout{
     border: 2px solid transparent;
-    border-width: 80px;
+    border-width: 50px;
     font-size: 10px;
 }
 }
@@ -528,7 +528,7 @@ footer p{
   }
   .parabout{
     border: 2px solid transparent;
-    border-width: 80px;
+    border-width: 50px;
     font-size: 10px;
 }
 }
@@ -585,7 +585,11 @@ footer p{
   .cars{
     height: 200px;
   }
- 
+ .parabout{
+    border: 2px solid transparent;
+    border-width: 30px;
+    font-size: 10px;
+}
   
 }
    
